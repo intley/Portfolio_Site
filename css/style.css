@@ -1,0 +1,88 @@
+body {
+  font-family: Nunito, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  background-color: white;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.container {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: block;
+  /*border-style: 0.5px solid grey; */
+}
+
+header {
+  border-bottom: 3px solid grey;
+  width: 100%;
+  background-color: black;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  display: block;
+}
+
+#logo {
+  display: inline-block;
+  width: 20%;
+}
+
+nav {
+  display: inline-block;
+  width: 50%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+/*  text-transform: uppercase;*/
+  font-size: 1em;
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+
+nav li {
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 25%;
+  text-align: center;
+
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+h4 {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+#name {
+}
+
+#role {
+}
