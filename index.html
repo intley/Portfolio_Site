@@ -1,64 +1,90 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Rahul's Portfolio | Welcome</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Website of Rahul Rajendran which is a portfolio of my projects">
-  <meta name="keywords" content="portfolio, resume, github, web design">
-  <meta name="author" content="Rahul Rajendran">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Nunito|Roboto|Cutive|Trocchi|Arvo|Bitter|Scope+One" rel="stylesheet">
-  <link href="css/style.css" rel = "stylesheet">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rahul's Portfolio | Welcome</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="css/style.css" rel = "stylesheet">
+    <!--Bootstrap CSS File -->
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+    <!--Stylesheet CDN's for Font-Awesome Icons-->
+    <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </head>
 <body>
   <header>
+    <nav class="navbar navbar-inverse">
       <div class="container">
-      <div id="logo">
-        <!-- width=80px height=60px-->
-      <img src="./img/udacity2.svg" width=200px height=60px>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
+        <div class="navbar-header">
+          <img id="logo" src="./img/udacity.svg" alt="Logo of Udacity" width=200px height=52px>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
         </ul>
-      </nav>
-        <div class="container">
-        <h1>Rahul Rajendran</h1>
-        <h4>Software Engineer</h4>
       </div>
+    </div>
+  </nav>
+    <div class="container">
+      <h1 class="page-header text-center">Rahul Rajendran</h1>
+      <p class="lead text-center">Software Engineer</p>
+    </div>
   </header>
-  <section id="showcase">
-  <!--  <div class="container"> -->
-      <h2>A Talented Web Developer</h2>
-  <!--  </div> -->
-  </section>
-  <section id="featured">
-    <h2>Featured Projects</h2>
-  </section>
-  <section id="featured_items">
-  <!--  <div class="container"> -->
-      <div class="box">
-        <img src="./img/proxyserver.png">
-        <h3>Proxy Web Server</h3>
-        <p>Github URL</p>
+    <section class="jumbotron">
+        <div class="container">
       </div>
-      <div class="box">
-        <img src="./img/udpradio.png">
-        <h3>UDP Radio</h3>
-        <p>Github URL</p>
-      </div>
-      <div class="box">
-        <img src="./img/freshtomatoes.png">
-        <h3>Fresh Tomatoes Movie Website</h3>
-        <p>Github URL</p>
-
-    <!--</div> -->
-  </section>
-  <footer>
-    <p>Responsive Webpage created by Rahul Rajendran, Copyright &copy; 2017</p>
-  </footer>
-  </div>
-</body>
-</html>
+    </section>
+  <section class="featured-list">
+    <div class="container">
+      <h2 class="page-header">Featured Work</h2>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12 panbox`">
+            <img src="./img/movie.jpg" alt="Image of a movie box" class="img-responsive">
+              <h3 class="page-header text-center">Movie Trailer Website</h3>
+                <a href="https://github.com/intley/Fresh_Tomatoes_Movie-Trailer-Website">
+                  <div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+                </div>
+              <div class="col-md-4 col-sm-6 col-xs-12 panbox">
+                <img src="./img/radio.png" alt="Image of a simple radio" class="img-responsive">
+                  <h3 class="page-header text-center">UDP Radio</h3>
+                    <a href="https://github.com/intley/UDP_Radio"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+                  </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 panbox">
+                  <img src="./img/proxyserver.png" alt="Image of a proxyserver" class="img-responsive">
+                    <h3 class="page-header text-center">Proxy Web Server</h3>
+                      <a href="https://github.com/intley/Proxy_Web_Server"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            <hr>
+          <footer class="footer-inverse">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <h6>Copyright &copy; 2017 Rahul Rajendran</h6>
+                </div>
+              <div class="col-md-4">
+              </div>
+            <div class="col-md-4">
+              <h6>Coded by Rahul <span class="glyphicon glyphicon-cloud"></span></h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>

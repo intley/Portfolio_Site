@@ -1,88 +1,33 @@
 body {
-  font-family: Nunito, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: normal;
-  background-color: white;
-  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
   height: 100%;
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
 }
 
-.container {
-  width: 100%;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-  display: block;
-  /*border-style: 0.5px solid grey; */
+.navbar-inverse {
+  margin-bottom: 0px;
+  border-radius: 0px;
 }
 
-header {
-  border-bottom: 3px solid grey;
-  width: 100%;
-  background-color: black;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-  display: block;
+.navbar {
+  margin-bottom: 0px !important;
+  border-radius: 0px !important;
 }
 
 #logo {
-  display: inline-block;
-  width: 20%;
+  margin-right: 10px;
+  filter: brightness(125%);
 }
 
-nav {
-  display: inline-block;
-  width: 50%;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-/*  text-transform: uppercase;*/
-  font-size: 1em;
-  display: inline-block;
-}
-
-nav ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-  display: inline-block;
+.jumbotron {
   width: 100%;
+  margin-top: 0px;
+  background-image: url("../img/engineering.png");
+  background-size: cover;
+  min-height: 270px;
 }
 
-nav li {
-  padding: 0 10px 0 10px;
-  display: inline-block;
-  vertical-align: text-top;
-  width: 25%;
-  text-align: center;
-
-}
-
-h1 {
-  margin: 0px;
-  padding: 0px;
-  font-weight: 500;
-  color: white;
-  display: inline-block;
+.img-responsive {
   width: 100%;
-  text-align: right;
-}
-
-h4 {
-  margin: 0px;
-  padding: 0px;
-  color: white;
-  display: inline-block;
-  width: 100%;
-  text-align: right;
-}
-
-#name {
-}
-
-#role {
 }
