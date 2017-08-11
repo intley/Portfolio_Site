@@ -18,16 +18,26 @@ body {
 #logo {
   margin-right: 10px;
   filter: brightness(125%);
+  width: 200px;
+  height: 52px;
+}
+
+#jumbo-text {
+  display: none;
 }
 
 .jumbotron {
   width: 100%;
   margin-top: 0px;
-  background-image: url("../img/engineering.png");
+  background-image: url("../img/engineering_2x.png");
   background-size: cover;
   min-height: 270px;
 }
 
 .img-responsive {
   width: 100%;
+}
+
+.fa-2x {
+  margin-right: 40px;
 }

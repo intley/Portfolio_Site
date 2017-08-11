@@ -22,7 +22,7 @@
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
-          <img id="logo" src="./img/udacity.svg" alt="Logo of Udacity" width=200px height=52px>
+          <img id="logo" src="./img/udacity.svg" alt="Logo of Udacity">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -30,61 +30,87 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
     <div class="container">
-      <h1 class="page-header text-center">Rahul Rajendran</h1>
-      <p class="lead text-center">Software Engineer</p>
+      <div class="row">
+        <div class="col-md-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="page-header text-center">Rahul Rajendran</h1>
+          <p class="lead text-center">Software Engineer</p>
+        </div>
+      </div>
     </div>
   </header>
-    <section class="jumbotron">
-        <div class="container">
-      </div>
-    </section>
-  <section class="featured-list">
+  <section class="jumbotron">
     <div class="container">
-      <h2 class="page-header">Featured Work</h2>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-12 panbox`">
-            <img src="./img/movie.jpg" alt="Image of a movie box" class="img-responsive">
-              <h3 class="page-header text-center">Movie Trailer Website</h3>
-                <a href="https://github.com/intley/Fresh_Tomatoes_Movie-Trailer-Website">
-                  <div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
-                </div>
-              <div class="col-md-4 col-sm-6 col-xs-12 panbox">
-                <img src="./img/radio.png" alt="Image of a simple radio" class="img-responsive">
-                  <h3 class="page-header text-center">UDP Radio</h3>
-                    <a href="https://github.com/intley/UDP_Radio"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
-                  </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 panbox">
-                  <img src="./img/proxyserver.png" alt="Image of a proxyserver" class="img-responsive">
-                    <h3 class="page-header text-center">Proxy Web Server</h3>
-                      <a href="https://github.com/intley/Proxy_Web_Server"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            <hr>
-          <footer class="footer-inverse">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                  <h6>Copyright &copy; 2017 Rahul Rajendran</h6>
-                </div>
-              <div class="col-md-4">
-              </div>
-            <div class="col-md-4">
-              <h6>Coded by Rahul <span class="glyphicon glyphicon-cloud"></span></h6>
-            </div>
-          </div>
+      <div class="row">
+        <div class="col-md-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h3 class="text-center" id="jumbo-text">Rahul Rajendran</h3>
         </div>
-      </footer>
-    </body>
-  </html>
+      </div>
+    </div>
+  </section>
+  <main class="featured-list">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h2 class="page-header">Featured Work</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img src="./img/movie_2x.jpg" srcset="./img/movie_2x.jpg 2x, ./img/movie_1x.jpg 1x" alt="Image of a movie box" class="img-responsive">
+          <h3 class="page-header text-center">Movie Trailer Website</h3>
+          <a href="https://github.com/intley/Fresh_Tomatoes_Movie-Trailer-Website" target="_blank">
+          <div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img src="./img/radio_2x.png" srcset="./img/radio_2x.png 2x, ./img/radio_1x.png 1x" alt="Image of a simple radio" class="img-responsive">
+          <h3 class="page-header text-center">UDP Radio</h3>
+          <a href="https://github.com/intley/UDP_Radio" target="_blank">
+          <div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <img src="./img/proxyserver_2x.png" srcset="./img/proxyserver_2x.png 2x, ./img/proxyserver_1x.png 1x" alt="Image of a proxyserver" class="img-responsive">
+          <h3 class="page-header text-center">Proxy Web Server</h3>
+          <a href="https://github.com/intley/Proxy_Web_Server" target="_blank">
+          <div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <hr>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-inverse">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h6>Copyright &copy; 2017 Rahul Rajendran</h6>
+        </div>
+        <div class="col-md-4">
+          <a href="https://www.linkedin.com/in/rahul-rajendran-1862577b/" target="_blank"><div class="fa-2x fa fa-linkedin-square" aria-hidden="true"></div></a>
+          <a href="https://twitter.com/rahul_rdran" target="_blank"><div class="fa-2x fa fa-twitter-square" aria-hidden="true"></div></a>
+          <a href="https://github.com/intley" target="_blank"><div class="fa-2x fa fa-github-square" aria-hidden="true"></div></a>
+        </div>
+        <div class="col-md-4">
+          <h6>Coded by Rahul <span class="glyphicon glyphicon-cloud"></span></h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

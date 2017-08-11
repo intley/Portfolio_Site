@@ -4,71 +4,103 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Projects | Rahul Rajendran</title>
+    <title>Rahul's Portfolio | Projects</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="css/style.css" rel = "stylesheet">
+    <!--Bootstrap CSS File -->
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--Stylesheet CDN's for Font-Awesome Icons-->
     <link type="text/css" href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </head>
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container">
-      <div class="navbar-header">
-        <img id="logo" src="./img/udacity.svg" alt="Image of the Udacity Logo" width=200px height=52px>
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li  class="active"><a href="projects.html">Projects<span class="sr-only">(current)</span></a></li>
-      </ul>
-    </div>
-  </nav>
-    <section class="project-list">
+  <header>
+    <nav class="navbar navbar-inverse">
       <div class="container">
-        <h1 class="page-header text-center">Projects</h1>
-          <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="panel panel-default">
-                <div class="panel-heading text-center">Movie Trailer Website</div>
-                  <div class="panel-body">
-                    <a href="https://github.com/intley/Fresh_Tomatoes_Movie-Trailer-Website">
-                      <img src="./img/movie.jpg" alt="Image of a movie box" class="img-responsive">
-                    <div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+        <div class="navbar-header">
+          <img id="logo" src="./img/udacity.svg" alt="Logo of Udacity">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="projects.html">Projects<span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <h1 class="page-header text-center">Rahul Rajendran</h1>
+          <p class="lead text-center">Software Engineer</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="project-list">
+    <div class="container">
+      <h1 class="page-header text-center">Projects</h1>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">Movie Trailer Website</div>
+            <div class="panel-body">
+              <img src="./img/movie_2x.jpg" alt="Image of a movie box" class="img-responsive">
+              <a href="https://github.com/intley/Fresh_Tomatoes_Movie-Trailer-Website">
+              <div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">UDP Radio</div>
+            <div class="panel-body">
+              <img src="./img/radio_2x.png" alt="Image of a simple radio" class="img-responsive">
+              <a href="https://github.com/intley/UDP_Radio"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="panel panel-default">
+            <div class="panel-heading text-center">Proxy Web Server</div>
+            <div class="panel-body">
+              <img src="./img/proxyserver_2x.png" alt="Image of a proxyserver" class="img-responsive">
+              <a href="https://github.com/intley/Proxy_Web_Server"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+            <!--
+            <footer class="footer-inverse">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <h6>Copyright &copy; 2017 Rahul Rajendran</h6>
                   </div>
+                <div class="col-md-4">
+                  <a href="https://www.linkedin.com/in/rahul-rajendran-1862577b/" target="_blank"><div class="fa-2x fa fa-linkedin-square" aria-hidden="true"></div></a>
+                  <a href="https://twitter.com/rahul_rdran" target="_blank"><div class="fa-2x fa fa-twitter-square" aria-hidden="true"></div></a>
+                  <a href="https://github.com/intley" target="_blank"><div class="fa-2x fa fa-github-square" aria-hidden="true"></div></a>
                 </div>
+              <div class="col-md-4">
+                <h6>Coded by Rahul <span class="glyphicon glyphicon-cloud"></span></h6>
               </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-              <div class="panel panel-default">
-                <div class="panel-heading text-center">UDP Radio</div>
-                  <div class="panel-body">
-                    <img src="./img/radio.png" alt="Image of a simple radio" class="img-responsive">
-                      <a href="https://github.com/intley/UDP_Radio"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
-                    </div>
-                  </div>
-                </div>
-              <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="panel panel-default">
-                  <div class="panel-heading text-center">Proxy Web Server</div>
-                    <div class="panel-body">
-                      <img src="./img/proxyserver.png" alt="Image of a proxyserver" class="img-responsive">
-                        <a href="https://github.com/intley/Proxy_Web_Server"><div class="fa-3x fa fa-github text-center" aria-hidden="true"></div><h4>Click to view on GitHub.</h4></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </body>
-        </html>
+            </div>
+          </div>
+          </footer>
+        -->
+</body>
+</html>
