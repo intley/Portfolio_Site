@@ -17,9 +17,9 @@ body {
 
 #logo {
   margin-right: 10px;
-  filter: brightness(125%);
+  filter: brightness(165%);
   width: 200px;
-  height: 52px;
+  height: 36px;
 }
 
 #jumbo-text {
@@ -29,9 +29,9 @@ body {
 .jumbotron {
   width: 100%;
   margin-top: 0px;
-  background-image: url("../img/engineering_2x.png");
+  background-image: url("http://www.tokkoro.com/picsup/2828400-simple-background-robot-digital-art-artificial-intelligence-technology-hi-tech___abstract-wallpapers.jpg");
   background-size: cover;
-  min-height: 270px;
+  min-height: 350px;
 }
 
 .img-responsive {
